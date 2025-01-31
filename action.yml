@@ -16,7 +16,7 @@ runs:
   using: "composite"
   steps:
     - name: 'Setup jq'
-      uses: dcarbone/install-jq-action@v2.1.0
+      uses: sc-actions-forks/install-jq-action@main
       with:
         version: 1.6
         force: 'true'
